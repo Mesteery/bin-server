@@ -40,16 +40,18 @@ jobs:
     
     - name: Install dependencies
       run: |
+        yarn install
         python -m pip install --upgrade pip
         pip install wheel setuptools
+
+    - name: Bundle
+      run: node bundler.js bin/assets bin/views/* --svgo --gzip 6
     
     - name: Build tar.gz
       run: python3 setup.py sdist
     
     - name: Build wheel
-      run: |
-        node bundler.js bin/assets bin/views/* --svgo --gzip 6
-        python3 setup.py bdist_wheel
+      run: python3 setup.py bdist_wheel
     
     - name: Upload tar.gz and wheel
       uses: svenstaro/upload-release-action@v2
