@@ -44,8 +44,8 @@ jobs:
       run: |
         bundlejs="$(sha224sum assets/scripts/*.js | sha224sum | cut -d ' ' -f1).js"
         bundlecss="$(sha224sum assets/styles/*.css | sha224sum | cut -d ' ' -f1).css"
-        sed '/<script.*src=/d' bin/views/*.html
-        sed "/<link.*rel=[\"']?stylesheet/d" bin/views/*.html
+        sed -i '/<script.*src=/d' bin/views/*.html
+        sed -i "/<link.*rel=[\"']?stylesheet/d" bin/views/*.html
         echo "<script type=javascript src=\"/assets/${bundlejs}\" defer></script>" >> bin/views/head.html
         echo "<link rel=stylesheet href=\"/assets/${bundlecss}\">" >> bin/views/head.html
         cat bin/assets/scripts/*.js | python -m rjsmin > ${bundlejs}
