@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/Mesteery/bin-server/compare/v1.3.1...v1.4.0) (2021-04-23)
+
+
+### Features
+
+* work please ([889ffd4](https://www.github.com/Mesteery/bin-server/commit/889ffd4ea21056b5396c29b6d727a8ef22005206))
+
 ### [1.3.1](https://www.github.com/Mesteery/bin-server/compare/v1.3.0...v1.3.1) (2021-04-23)
 
 
