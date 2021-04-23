@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/Mesteery/bin-server/compare/v1.2.0...v1.3.0) (2021-04-23)
+
+
+### Features
+
+* **build:** minimalist bundler ([10a147b](https://www.github.com/Mesteery/bin-server/commit/10a147bd83d707ab91325619fef46e3e7b12a3dd))
+
+
+### Bug Fixes
+
+* include assets' root files ([f0bdd82](https://www.github.com/Mesteery/bin-server/commit/f0bdd825ba6f90414ea133ebd15a07a9447f9995))
+
 ## [1.2.0](https://www.github.com/readthedocs-fr/bin-server/compare/v1.1.2...v1.2.0) (2021-04-22)
 
 
