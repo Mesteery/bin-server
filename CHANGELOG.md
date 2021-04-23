@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://www.github.com/Mesteery/bin-server/compare/v1.3.0...v1.3.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* gfrdews2tg4dew ([ad5ad9f](https://www.github.com/Mesteery/bin-server/commit/ad5ad9f41dfd07030743999ab81bc3e70fac6b1c))
+
 ## [1.3.0](https://www.github.com/Mesteery/bin-server/compare/v1.2.0...v1.3.0) (2021-04-23)
 
 
