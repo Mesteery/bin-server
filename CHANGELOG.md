@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://www.github.com/readthedocs-fr/bin-server/compare/v1.2.0...v1.2.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* include assets' root files ([f0bdd82](https://www.github.com/readthedocs-fr/bin-server/commit/f0bdd825ba6f90414ea133ebd15a07a9447f9995))
+
 ## [1.2.0](https://www.github.com/readthedocs-fr/bin-server/compare/v1.1.2...v1.2.0) (2021-04-22)
 
 
