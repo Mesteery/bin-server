@@ -1,12 +1,5 @@
 # Changelog
 
-## [1.5.0](https://www.github.com/Mesteery/bin-server/compare/v1.4.0...v1.5.0) (2021-04-23)
-
-
-### Features
-
-* hgt4fred ([67be2b3](https://www.github.com/Mesteery/bin-server/commit/67be2b3c17c4071f3094fa4821e9fd9864e2b356))
-
 ## [1.4.0](https://www.github.com/Mesteery/bin-server/compare/v1.3.1...v1.4.0) (2021-04-23)
 
 
