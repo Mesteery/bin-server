@@ -21,4 +21,4 @@ jobs:
       run: yarn install
 
     - name: Bundle
-      run: node bundler.js bin/assets bin/views/* --svgo --gzip 6
+      run: node bundler.js 'bin/assets' 'bin/views/*' --svgo --gzip 6
