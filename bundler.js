@@ -142,7 +142,7 @@ const cli = meow(`
     },
 	}
 });
-
+console.log(cli, process.argv);
 if (cli.flags.h) {
   return cli.showHelp();
 }
