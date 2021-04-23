@@ -137,3 +137,7 @@ dump.rdb
 .*
 !.gitignore
 !.readthedocs.yml
+
+node_modules
+yarn.lock
+package-lock.json
