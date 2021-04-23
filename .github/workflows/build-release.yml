@@ -45,7 +45,7 @@ jobs:
         pip install wheel setuptools
 
     - name: Bundle
-      run: node bundler.js bin/assets bin/views/* --svgo --gzip 6
+      run: node bundler.js 'bin/assets' 'bin/views/*' --svgo --gzip 6
     
     - name: Build tar.gz
       run: python3 setup.py sdist
@@ -60,9 +60,3 @@ jobs:
         file_glob: true
         tag: ${{ needs.release-please.outputs.tag }}
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Publish package
-      uses: pypa/gh-action-pypi-publish@release/v1
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN }}
