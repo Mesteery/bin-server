@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.5.1](https://www.github.com/Mesteery/bin-server/compare/v1.5.0...v1.5.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* watch my demo ([9402fe1](https://www.github.com/Mesteery/bin-server/commit/9402fe1dfd5c339da91138d287d039d62d06f54a))
+
 ## [1.4.0](https://www.github.com/Mesteery/bin-server/compare/v1.3.1...v1.4.0) (2021-04-23)
 
 
