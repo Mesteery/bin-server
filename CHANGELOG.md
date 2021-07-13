@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.5.2](https://www.github.com/Mesteery/bin-server/compare/v1.5.1...v1.5.2) (2021-07-13)
+
+
+### Bug Fixes
+
+* force identifier length to IDENTSIZE ([9c8865e](https://www.github.com/Mesteery/bin-server/commit/9c8865e3fc2d2eecfe45e956ae4648adceafe0e0))
+* undeclared 'token' error ([1c4e5e3](https://www.github.com/Mesteery/bin-server/commit/1c4e5e3c0171a868e067d6136bdc0e26b369f2a9))
+
 ### [1.5.1](https://www.github.com/Mesteery/bin-server/compare/v1.5.0...v1.5.1) (2021-04-23)
 
 
